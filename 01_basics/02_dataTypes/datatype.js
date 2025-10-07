@@ -15,6 +15,7 @@ let isLoggedIn = true;
 console.log(isLoggedIn); // true
 
 // 4. Undefined → Variable declared but no value assigned
+// ok
 let city;
 console.log(city); // undefined
 
