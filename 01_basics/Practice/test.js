@@ -1,7 +1,7 @@
 // Date
 let today = new Date();
 console.log(today.toString());
-// ok
+
 // Map
 let map = new Map();
 map.set("name", "Aadil");
