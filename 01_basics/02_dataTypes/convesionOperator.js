@@ -34,3 +34,9 @@ let x = 3
 let y = x++
 
 console.log(`x:${x} , y:${y}`)
+
+// to convert number to string
+
+const num = 69
+const value = Symbol(num)
+console.log(typeof value)
