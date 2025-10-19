@@ -33,10 +33,10 @@ console.log(b);
 // Array
 // Function
 
-let obj1 = {
-  name: "Hamza",
-};
-console.log(obj1.name);
+// let obj1 = {
+//   name: "Hamza",
+// };
+// console.log(obj1.name);
 
 // let obj2 = obj2;
 // obj2.name = "Khan";
@@ -52,4 +52,32 @@ let d = c;
 d = 50;
 console.log(c);
 
+let num = 90;
+num = 98;
 
+console.log(num);
+
+// second example of immutable
+let city = "Delhi";
+// let anotherCity = city;
+
+anotherCity = "Mumbai";
+
+console.log(city);
+console.log(anotherCity);
+
+// second example of mutable
+let person = {
+  name: 'aadil',
+  age: '22'
+}
+
+let anotherPerson = person
+anotherPerson.age = 28
+
+console.log(person.age)
+console.log(anotherPerson.age)
+
+
+let e = 'dddd'
+console.log(e)
