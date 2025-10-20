@@ -26,7 +26,7 @@ let url = "https://aadilkhan.vercel.app";
 console.log(url.replace(".vercel.", "-"));
 console.log(url.includes("aadil"));
 
-// subString => like ye mere pass ek variable h str jis me "javascript" diya h 
+// subString => like ye mere pass ek variable h str jis me "javascript" diya h
 // ab mujhe pata karna h ke 0 se 4 tak kiya  words h str me to vo ye h java
 // let str = "JavaScript";
 // console.log(str.substring(0, 4)); // "Java"
@@ -36,4 +36,3 @@ console.log(url.includes("aadil"));
 
 // startIndex se start karta hai (inclusive)
 // endIndex tak jata hai (exclusive)
-
