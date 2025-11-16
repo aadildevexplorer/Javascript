@@ -20,8 +20,8 @@ let a = 10;
 let b = a;
 b = 50;
 
-console.log(a);
-console.log(b);
+console.log(a); // 10
+console.log(b); // 50
 
 // 🧩 2. Heap Memory (Dynamic Memory)
 
@@ -41,43 +41,42 @@ console.log(b);
 // let obj2 = obj2;
 // obj2.name = "Khan";
 
-let str = "hello";
-let newStr = str.toUpperCase(); // newStr me "HELLO", str unchanged
-console.log(str); // "Hello"
+// let str = "hello";
+// let newStr = str.toUpperCase(); // newStr me "HELLO", str unchanged
+// console.log(str); // "Hello"
 
-// stack memory
-let c = 3;
-let d = c;
+// // stack memory
+// let c = 3;
+// let d = c;
 
-d = 50;
-console.log(c);
+// d = 50;
+// console.log(c);
 
-let num = 90;
-num = 98;
+// let num = 90;
+// num = 98;
 
-console.log(num);
+// console.log(num);
 
-// second example of immutable
-let city = "Delhi";
-// let anotherCity = city;
+// // second example of immutable
+// let city = "Delhi";
+// // let anotherCity = city;
 
-anotherCity = "Mumbai";
+// anotherCity = "Mumbai";
 
-console.log(city);
-console.log(anotherCity);
+// console.log(city);
+// console.log(anotherCity);
 
-// second example of mutable
-let person = {
-  name: 'aadil',
-  age: '22'
-}
+// // second example of mutable
+// let person = {
+//   name: "aadil",
+//   age: "22",
+// };
 
-let anotherPerson = person
-anotherPerson.age = 28
+// let anotherPerson = person;
+// anotherPerson.age = 28;
 
-console.log(person.age)
-console.log(anotherPerson.age)
+// console.log(person.age);
+// console.log(anotherPerson.age);
 
-
-let e = 'dddd'
-console.log(e)
+// let e = "dddd";
+// console.log(e);
