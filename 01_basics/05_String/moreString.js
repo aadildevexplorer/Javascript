@@ -22,3 +22,5 @@ let name2 = new String("Aadil");
 
 let str = "world".charCodeAt();
 console.log(str);
+
+// spread 

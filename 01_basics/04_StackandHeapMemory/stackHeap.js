@@ -7,15 +7,15 @@
 
 // // Heap memory => refrence ke thorugh data store karti h non primitive data type ko object ye mutable h
 
-// // const obj1 = {
-// //   name: "Dev",
-// // };
+// const obj1 = {
+//   name: "Dev",
+// };
 
-// // const obj2 = obj1;
-// // obj2.name = "Aadil";
+// const obj2 = obj1;
+// obj2.name = "Aadil";
 
-// // console.log(obj1.name);
-// // console.log(obj2.name);
+// console.log(obj1.name);
+// console.log(obj2.name);
 
 // // let x = 5;
 // // let y = x;
@@ -141,8 +141,8 @@ const data = [
   },
 ];
 
-// const save = localStorage.setItem("data", data);
 
 data[0].values = [...data[0].values, ...data[0].values, ...data[0].values];
 console.log(data);
 // console.log(JSON.stringify(data, null, 2));
+// const save = localStorage.setItem("data", data);
