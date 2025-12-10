@@ -15,6 +15,7 @@ console.log(jsUser.name); // is tarah se plan object get hota h // undefiend // 
 console.log(jsUser[0].name); // User rihgt way 
 const arr = [1, 2, 3, 4];
 
+// Array Methods
 // 🚀 1. push() – END me element add karta hai
 arr.push(5);
 console.log(arr);
