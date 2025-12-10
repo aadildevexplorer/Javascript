@@ -15,6 +15,7 @@ let isLoggedIn = true;
 console.log(isLoggedIn); // true
 
 // 4. Undefined → Variable declared but no value assigned
+// ok
 let city;
 console.log(city); // undefined
 
@@ -107,3 +108,9 @@ let obj1 = { lang: "JS" };
 let obj2 = obj1;
 obj2.lang = "Node.js";
 console.log(obj1.lang); // "Node.js" (same reference)
+
+
+const x = Symbol();
+const y = Symbol();
+
+console.log(x , y)
