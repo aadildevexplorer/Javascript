@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // console.log(2 > 1)
 // console.log(2 < 1)
 // console.log(2 !== 2)
@@ -27,6 +28,37 @@ console.log(2 === "2");
 // }
 
 // console.log(text)
+=======
+// // console.log(2 > 1)
+// // console.log(2 < 1)
+// // console.log(2 !== 2)
+// // console.log(2 !> 2)
+
+// // 👉 JavaScript automatically string ko number me convert kar deta hai when comparing with numbers.
+
+// // console.log('2' > 1)
+// // console.log('02' > 1)
+
+// // == (Loose equality - compares values after type conversion)
+// // === (Strict equality - compares values without type conversion)
+// // != (Loose inequality)
+// // !== (Strict inequality)
+// // > (Greater than)
+// // < (Less than)
+// // >= (Greater than or equal to)
+// // <= (Less than or equal to)
+
+// console.log(2 === "2");
+
+// // let age = 16;
+// // let text = "You can Not drive";
+
+// // if (age >= 18) {
+// //   text = "You can drive";
+// // }
+
+// // console.log(text)
+>>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 
 // let age = 16;
 // let country = "USA";

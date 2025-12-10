@@ -125,6 +125,7 @@ console.log(even);
 console.log(5 / "ljj");
 console.log(typeof null);
 console.log(typeof undefined);
+<<<<<<< HEAD
 console.log(typeof NaN);
 
 // NaN ek invalid number h
@@ -172,3 +173,12 @@ av[0] = 'a'
 console.log(av);
 
 console.log(x)
+=======
+console.log(typeof NaN)
+
+// NaN ek invalid number h 
+// null or undefined equal hote h immutale also
+console.log(null === null) // true 
+console.log(undefined === undefined) // true
+console.log(NaN === NaN) // false because computer standard me ek rule h ke NaN is not equal to anything not even itself isiliye false
+>>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5

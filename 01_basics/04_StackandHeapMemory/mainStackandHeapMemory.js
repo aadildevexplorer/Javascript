@@ -1,4 +1,8 @@
 //  Primitive
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // const obj = {
 // //   name: "Aadil",
 // // };
@@ -184,3 +185,23 @@ console.log(obj.name);
 
 console.log([1, 2] + [3, 4]);
 console.log([1,2,3])
+=======
+function add(a, b) {
+  return a + b;
+}
+
+// console.log(add(50, 24));
+
+const arr = [1, 2, 3, 4, 5];
+// const result = arr.find((item) => item === 3);
+
+const result = arr.find((item) => {
+  if (item === 3) {
+    return true;
+  } else {
+    return false;
+  }
+});
+
+console.log(result);
+>>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
