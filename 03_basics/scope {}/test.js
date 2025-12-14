@@ -1,5 +1,5 @@
 // var ko isiliye use nhi karte h kiyunki vo unpredictable
-//  behaviour h vo  scope ke bahar bhi access ho  jata h
+//  behaviour h vo  scope ke bahar bhi access ho jata h
 
 // Tum ek chhote block ke andar value declare karo
 // Fir bhi pura program usko access kar sakta hai

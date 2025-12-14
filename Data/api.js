@@ -6,7 +6,7 @@ const fetchData = async () => {
   console.log("Data", data);
 };
 
-fetchData()
+fetchData();
 
 async function name() {
   const res = await fetch(`${API}/products`);
