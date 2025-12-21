@@ -11,10 +11,10 @@ console.log(y); //  [1, 2, 3, 4]
 console.log(2 + "2" - 1); // 12
 console.log(typeof null); // number
 
-const a = { value: 10 };
-const b = { value: 10 };
+// const a = { value: 10 };
+// const b = { value: 10 };
 
-console.log(a === b); // true
+// console.log(a === b); // true
 
 // Hoisting ka simple explain do with example.
 // hoisting ek default behaviuor of js function h jo declearation se pehle access kiya jata h or vo hoist ho jata h
@@ -83,3 +83,28 @@ const result = strr("Hello");
 console.log(result);
 
 // Array me se unique values return karo: no idea
+
+// const arr = [(user = "aadil")];
+
+// const [user] = arr;
+
+// console.log(user);
+
+const arr = [1, 2, 3, 4, 5];
+const [a, b, c] = arr;
+console.log(a);
+
+const numbers = [1, 2, 3];
+const [first, third] = numbers;
+console.log(first);
+
+const arrOfobj = [{ name: "aadl" }];
+const [{ name }] = arrOfobj;
+console.log(name);
+
+const obj = {
+  people: "90,000",
+};
+
+const { people } = obj;
+console.log(people);

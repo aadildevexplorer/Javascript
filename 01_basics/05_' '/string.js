@@ -1,5 +1,4 @@
 // 📌 What is a String in JavaScript?
-
 // A string in JavaScript is a data type used to store text.
 // Any value written inside quotes is considered a string.
 
@@ -16,7 +15,7 @@ let str = "hello".charAt(1); // kis indexing per kosna chahracter h
 console.log(str); // e
 
 // 3. indexOf() →  String me character/word ka first position (index) return karta h
-let pos = "hello".indexOf("h"); // konsa character kis indexing per h likee
+let pos = "hello".indexOf("h"); // konsa character kis indexing per h like
 console.log(pos); // 0
 
 // 4. slice() →  String ka selected part (cut) karke new string return karta h
@@ -55,7 +54,7 @@ console.log(rp); // i am a software developer
 
 // 12. replaceAll() →  String me jitni baar match mile sab ko replace karta h
 const rpl = "replace".replaceAll("a", "z");
-console.log(rpl); // replzce    →  saari 'a' ko 'z' se replace kiya
+console.log(rpl); // replzce    →  saare 'a' ko 'z' se replace kiya
 
 // 13. split() →  String ko array me convert karta h (delimiter ke basis par)
 const splt = "h,el,l,o".split(",");
