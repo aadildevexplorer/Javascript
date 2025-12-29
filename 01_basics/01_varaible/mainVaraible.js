@@ -23,8 +23,4 @@ console.table([
   accountPassword,
   accountCity,
   accountState,
-<<<<<<< HEAD
 ]);
-=======
-]);
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5

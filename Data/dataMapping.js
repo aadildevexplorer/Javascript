@@ -1,17 +1,17 @@
-// const data = [
-//   {
-//     user_name: "Dev",
-//     last_name: "loper",
-//     my_age: 32,
-//   },
-// ];
+const data = [
+  {
+    user_name: "Dev",
+    last_name: "loper",
+    my_age: 32,
+  },
+];
 
-// // convert data to dataMapping
-// const dataMapping = data.map((item) => ({
-//   fullName: item.user_name + item.last_name,
-//   age: item.my_age,
-// }));
-// console.log(dataMapping);
+// convert data to dataMapping
+const dataMapping = data.map((item) => ({
+  fullName: item.user_name + item.last_name,
+  age: item.my_age,
+}));
+console.log(dataMapping);
 
 // 2
 const users = [
@@ -61,7 +61,7 @@ const users = [
 
 const userMapping = users.map((data) => ({
   id: data.user_id,
-    fullName: `${data.first_name} ${data.last_name}`,
+  fullName: `${data.first_name} ${data.last_name}`,
   // fullName: data.first_name + " " + data.last_name,
   email: data.contact_info.email_id,
   phone: data.contact_info.phone_no,

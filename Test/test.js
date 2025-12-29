@@ -108,3 +108,43 @@ const obj = {
 
 const { people } = obj;
 console.log(people);
+
+let xx;
+console.log(xx);
+
+const findMaximumNum = (arr) => {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+};
+
+const results = findMaximumNum([1, 2, 3, 4, 5]);
+console.log(results);
+
+var e = 90;
+function test() {
+  var c = 80;
+  console.log(c);
+}
+
+test();
+
+function name2() {
+  console.log(e);
+}
+
+name2();
+function add(x, y) {
+  let sum = x + y;
+  return sum;
+}
+console.log(add(8, 4));
+
+test1();
+const test1 = () => {
+  console.log("Hello Dear");
+};
