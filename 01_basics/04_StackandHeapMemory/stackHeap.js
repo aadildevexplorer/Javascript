@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // stack memory => stack memory fixed size data ko store karti h like primitive data types string...etc ye immutable hote h
 let ab = 10;
 let ba = ab;
@@ -92,15 +91,14 @@ newProfile.city = "Mumbai";
 
 console.log(name);
 console.log(profile.city);
-=======
-// // stack memory => stack memory fixed size data ko store karti h like primitive data types string...etc ye immutable hote h
-// // let a = 10;
-// // let b = a;
-// // b = 90;
-// // console.log(a); // 10
-// // console.log(b); // 90
+// stack memory => stack memory fixed size data ko store karti h like primitive data types string...etc ye immutable hote h
+// let a = 10;
+// let b = a;
+// b = 90;
+// console.log(a); // 10
+// console.log(b); // 90
 
-// // Heap memory => refrence ke thorugh data store karti h non primitive data type ko object ye mutable h
+// Heap memory => refrence ke thorugh data store karti h non primitive data type ko object ye mutable h
 
 // const obj1 = {
 //   name: "Dev",
@@ -186,7 +184,6 @@ console.log(profile.city);
 
 // console.log(name);
 // console.log(profile.city);
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 
 let a = 5;
 let b = a;
@@ -237,15 +234,12 @@ const data = [
   },
 ];
 
-<<<<<<< HEAD
 data[0].values = [...data[0].values, ...data[0].values, ...data[0].values];
 console.log(data);
 // console.log(JSON.stringify(data, null, 2));
 // const save = localStorage.setItem("data", data);
-=======
 
 data[0].values = [...data[0].values, ...data[0].values, ...data[0].values];
 console.log(data);
 // console.log(JSON.stringify(data, null, 2));
 // const save = localStorage.setItem("data", data);
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5

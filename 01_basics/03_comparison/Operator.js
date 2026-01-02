@@ -72,11 +72,7 @@
 // | `===` | Strict Equality          | “barabar (value + type dono same hone chahiye)”  | Exact match karta                                        |
 // | `!=`  | Loose Not Equal          | “barabar nahi (sirf value check)”                | Type convert karke unequal check karta                   |
 // | `!==` | Strict Not Equal         | “barabar nahi (value aur type dono check karta)” | Exact unequal check karta                                |
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 // console.log(2 > 2); // false
 // console.log(2 >= 1); // true
 // console.log(3 <= 4); // true
@@ -91,7 +87,7 @@
 // | Sign | Name (English) | WhatsApp Style Name | Kaam kya karta hai               |      |                                     |
 // | ---- | -------------- | ------------------- | -------------------------------- | ---- | ----------------------------------- |
 // | `&&` | Logical AND    | “aur”               | Dono condition true hone chahiye |      |                                     |
-// | `    |                | `                   | Logical OR                       | “ya” | Koi ek condition true ho to chalega |
+// | `||` | Logical OR     | `                   | koi ek condition true ho to kaam ho jayega.                       | “ya” | Koi ek condition true ho to chalega |
 // | `!`  | Logical NOT    | “nahi”              | Condition ko ulta kar deta hai   |      |                                     |
 
 let course = "BCA";
@@ -110,11 +106,8 @@ if (
 // Logical OR
 if (
   course === "BCA" ||
-<<<<<<< HEAD
   (university === "Renaiasaince University" || vehicle === "CAR")
-=======
   (university === "Renaiasaince University" && vehicle === "CAR")
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 ) {
   console.log("I am eligible");
 }

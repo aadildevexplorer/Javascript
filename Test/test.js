@@ -142,9 +142,24 @@ function add(x, y) {
   let sum = x + y;
   return sum;
 }
-console.log(add(8, 4));
+console.log(add(8));
 
-test1();
-const test1 = () => {
-  console.log("Hello Dear");
+// stack memory
+let xy = 10;
+yx = xy;
+
+yx = 20;
+
+console.log(xy);
+console.log(yx);
+
+// heap memory
+let obj1 = {
+  name: "John Doe",
 };
+
+let obj2 = obj1;
+obj2.name = 'Dada';
+
+console.log(obj1.name);
+console.log(obj2.name);

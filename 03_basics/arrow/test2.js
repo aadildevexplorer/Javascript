@@ -25,8 +25,8 @@ const user2 = {
 
 user2.sayHello();
 
-// arrow function use kr sakte h laikin direct arrow function me use nahi hota
-//  asa use kar te Arrow function ko agar kisi normal function ke andar likho,
+// arrow function me this keyword use kr sakte h laikin direct arrow function me use nahi hota
+// asa use kar te Arrow function ko agar kisi normal function ke andar likho,
 // to wo us normal function ka this use kar lega.**
 
 // ❌ Galat case (direct arrow function)

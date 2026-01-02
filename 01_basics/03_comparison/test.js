@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // console.log(2 > 1)
 // console.log(2 < 1)
 // console.log(2 !== 2)
@@ -28,7 +27,6 @@ console.log(2 === "2");
 // }
 
 // console.log(text)
-=======
 // // console.log(2 > 1)
 // // console.log(2 < 1)
 // // console.log(2 !== 2)
@@ -58,7 +56,6 @@ console.log(2 === "2");
 // // }
 
 // // console.log(text)
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 
 // let age = 16;
 // let country = "USA";
