@@ -5,3 +5,5 @@
 //   let a = 20;
 //   console.log(a);
 // }
+
+// global variable => global variable vo hote h jo code ke kisi bhi area me access ho jate h

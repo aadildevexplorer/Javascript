@@ -239,6 +239,8 @@ console.log(data);
 // console.log(JSON.stringify(data, null, 2));
 // const save = localStorage.setItem("data", data);
 
+localStorage.clear();
+
 data[0].values = [...data[0].values, ...data[0].values, ...data[0].values];
 console.log(data);
 // console.log(JSON.stringify(data, null, 2));

@@ -1,3 +1,9 @@
+// 1. switch–case hota kya hai?
+
+// switch–case ek conditional control structure hai jo ek hi variable / expression ki multiple fixed values se comparison karta hai.
+
+// 👉 Jab ek hi value ko baar-baar compare karna ho, tab switch–case if–else se zyada clean aur readable hota hai.
+
 // switch (key) {
 //     case value:
 

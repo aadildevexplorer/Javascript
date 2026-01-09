@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-// // const obj = {
-// //   name: "Aadil",
-// // };
-// // console.log(obj);
+// const obj = {
+//   name: "Aadil",
+// };
+// console.log(obj);
 
-// // obj.name = "Hamza";
-// // console.log(obj.name);
+// obj.name = "Hamza";
+// console.log(obj.name);
 
-// // function js() {
-// //   console.log("ok");
-// // }
+// function js() {
+//   console.log("ok");
+// }
 
-// // js();
+// js();
 
-// // console.log(js);
-// // var js = 1;
+// console.log(js);
+// var js = 1;
 
 // const arr = [8, 4, 3, 2, 6, 7, 5, 10, 9, 1];
 // const sortedArray = arr.sort((a, b) => a - b);
@@ -184,8 +183,7 @@ obj.name = "Developer";
 console.log(obj.name);
 
 console.log([1, 2] + [3, 4]);
-console.log([1,2,3])
-=======
+console.log([1, 2, 3]);
 function add(a, b) {
   return a + b;
 }
@@ -204,4 +202,18 @@ const result = arr.find((item) => {
 });
 
 console.log(result);
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
+
+let obj1 = {
+  name: "User1",
+};
+
+obj1.adress = "juna risala";
+Object.seal(obj1);
+
+// obj1.name = "User2";
+console.log(obj1);
+
+// console.log(Object.entries(obj1));
+
+console.log(new Date().toLocaleDateString('en-IN'));
+console.log(Date.now());

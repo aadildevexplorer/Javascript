@@ -15,3 +15,10 @@ async function name() {
 }
 
 name();
+
+const arrow = () => {
+  const api = "https://fakestoreapi.com/users";
+  return api
+};
+
+arrow();
