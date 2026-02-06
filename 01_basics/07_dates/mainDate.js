@@ -9,7 +9,7 @@ console.log(newDate.getTime());
 const id = crypto.randomUUID();
 // 👉 Creates unique ID
 // 👉 Use: database IDs, random keys, object IDs, frontend keys
-console.log(id);
+    console.log(id);
 
 console.log(newDate.getFullYear());
 // 👉 Returns year (example: 2025)

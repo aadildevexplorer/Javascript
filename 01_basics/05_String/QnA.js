@@ -27,7 +27,7 @@
 // console.log("Aadil Khan".length)
 // console.log("javascript".charAt(100));
 // console.log("hello".includes("H"));
-// console.log("frontend developer".slice(-8))
+console.log("frontend developer".slice(-8))
 // console.log(typeof ("123".toString())) // 123
 // console.log("mango".replace("m", "k")) // kango
 // console.log("mango".replaceAll("m", "k")) // kango

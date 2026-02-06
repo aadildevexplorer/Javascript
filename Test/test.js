@@ -159,7 +159,37 @@ let obj1 = {
 };
 
 let obj2 = obj1;
-obj2.name = 'Dada';
+obj2.name = "Dada";
 
 console.log(obj1.name);
 console.log(obj2.name);
+
+var arr1 = [1, 2, 3, 4, 5, 5];
+
+for (let i = 0; i < arr1.length; i++) {
+  console.log(arr1[i]);
+}
+
+const count = 30;
+
+function Increament() {
+  const count = 90;
+  console.log(count);
+}
+
+Increament();
+
+const reverseArr = [1, 2, 3, 4, 5];
+console.log(reverseArr.reverse());
+
+let a1 = 10;
+let b1 = 20;
+
+a1 = b1;
+b1 = a1;
+
+console.log(a1, b1);
+
+const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const sortedArray = arr2.sort((a, b) => b - a);
+console.log(sortedArray);

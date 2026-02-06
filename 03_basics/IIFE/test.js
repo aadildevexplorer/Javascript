@@ -23,5 +23,9 @@
   console.log("I am arrow func using IIFE");
 })();
 // Why is the use of IIFE less common in modern JavaScript development?
-// global scope ko pollute hone se bachana 
+// global scope ko pollute hone se bachana
 // data privacy / Encapsulation
+
+(() => {
+  console.log("I am IIFE");
+})();

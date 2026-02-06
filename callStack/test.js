@@ -17,15 +17,15 @@ one();
 
 // var a = 10;
 
-function demo(x) {
-  var b = 20;
-  console.log(x + b);
-}
+// function demo(x) {
+//   var b = 20;
+//   console.log(x + b);
+// }
 
-demo(5);
+// demo(5);
 
-const a = [1, 2];
-const b = [2, 3];
+// const a = [1, 2];
+// const b = [2, 3];
 
-const unionArr = [...a, ...b];
-console.log(unionArr);
+// const unionArr = [...a, ...b];
+// console.log(unionArr);

@@ -1,3 +1,3 @@
 const a = "hello";
 console.log(a);
-alert("Hello i am alert");
+console.log(2 > 3);

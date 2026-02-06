@@ -28,7 +28,3 @@ greet();
 console.log(cName); // not defined
 console.log(vName); // accesible but risky
 console.log(lName); // not defined
-<<<<<<< HEAD
-console.log(lName); // not defined
-=======
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5

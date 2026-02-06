@@ -1,5 +1,4 @@
-// 1
-// literal object
+// 1 literal object
 const obj = {
   name: "user",
 };
@@ -7,22 +6,8 @@ const obj = {
 obj.email = "user@gmail.com";
 obj.price = 299;
 console.log(obj);
-// 2
-// constructor function through this keyword constructor func ke through object
-// constructor - The constructor method is a special method of a
-// class for creating and initializing an object instance of that class.
-// function User(name, email, age, price, category, subject, fields) {
-//   this.name = name;
-//   this.email = email;
-//   this.age = age;
-//   this.price = price;
-//   this.category = category;
-//   this.category = subject;
-//   this.fields = fields;
-// }
 
-// const u1 = new User("user", "user@gmail.com", 90, 999, "vegan", "BBA", "IT");
-// console.log(u1);
+// 2 constructor function
 function User(name, age) {
   this.name = name;
   this.age = age;
@@ -31,8 +16,7 @@ function User(name, age) {
 const u1 = new User("Dev", 20);
 console.log(u1);
 
-// 3
-// new Object()
+// 3 new Object()
 const ob = new Object();
 ob.name = "user";
 ob.age = 32;
@@ -58,3 +42,22 @@ function ts(name) {
 
 const u8 = new ts("dev");
 console.log(u8);
+
+
+
+
+// constructor function through this keyword constructor func ke through object
+// constructor - The constructor method is a special method of a
+// class for creating and initializing an object instance of that class.
+// function User(name, email, age, price, category, subject, fields) {
+//   this.name = name;
+//   this.email = email;
+//   this.age = age;
+//   this.price = price;
+//   this.category = category;
+//   this.category = subject;
+//   this.fields = fields;
+// }
+
+// const u1 = new User("user", "user@gmail.com", 90, 999, "vegan", "BBA", "IT");
+// console.log(u1);

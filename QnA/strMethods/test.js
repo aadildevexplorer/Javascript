@@ -83,8 +83,8 @@ const validatePassword = () => {
   }
 };
 
-// const result = validatePassword("  Hello");
-// console.log(result);
+const results = validatePassword(" ");
+console.log(results);
 
 const findMaximumNumber = (arr) => {
   let max = arr[0];
@@ -96,5 +96,16 @@ const findMaximumNumber = (arr) => {
   return max;
 };
 
-const result = findMaximumNumber([1, 2, 3, 4, 5 ,6]);
+const result = findMaximumNumber([1, 2, 3, 4, 5, 6]);
 console.log(result);
+
+const validPassword = (password) => {
+  if (password.includes(" ")) {
+    console.log("Password not valid ❌");
+  } else {
+    console.log("Password is valid ✅");
+  }
+};
+
+validPassword("hello world");
+validPassword("helloworld");

@@ -110,5 +110,5 @@ console.log(date.toLocaleString("en-US"));
 //   console.log("i am not able to this");
 // }
 
-const st = "hello world from me".split(" ");
+const st = "hello world from me".split(",");
 console.log(st);

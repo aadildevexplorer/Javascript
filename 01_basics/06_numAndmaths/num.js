@@ -1,6 +1,6 @@
-// const num = 100.567;
-// console.log(num);
-// console.log(num.toFixed(1));
+const num = 100.567;
+console.log(num);
+console.log(num.toFixed(1));
 console.log(Math.random());
 
 console.log(Math.floor(Math.random() * 999999));

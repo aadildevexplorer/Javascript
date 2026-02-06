@@ -24,7 +24,7 @@ function loginUser(userName = "Aadil") {
   if (userName === undefined) {
     console.log("Please enter a username");
   }
-  return `${userName} jussed logged in`;
+  return `${userName} jusset logged in`;
 }
 
 console.log(loginUser("Programmer"));

@@ -8,7 +8,7 @@ const user = {
   },
 };
 
-// user.welcomeMessage()
+user.welcomeMessage()
 // user.username = "sam"
 // user.welcomeMessage()
 
@@ -27,11 +27,11 @@ const user = {
 // }
 
 const chai = () => {
-  let username = "hitesh";
+  let username = "hiteshjjjj";
   console.log(this);
 };
 
-// chai()
+chai()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
@@ -41,9 +41,9 @@ const chai = () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({ username: "hitesh" });
+// const addTwo = (num1, num2) => ({ username: "hitesh" });
 
-console.log(addTwo(3, 4));
+// console.log(addTwo(3, 4));
 
 // myArray.forEach()
 

@@ -9,7 +9,7 @@ if (userEmail) {
 // falsy value
 // false ,  0 , -0 , BigInt , 0n , '', null , undefined , NaN
 
-// truthy
+// truthy value
 // '0' 'false' " ", [] , {}, function(){}
 
 if (userEmail.length === 0) {
@@ -29,7 +29,13 @@ if (Object.keys(objEmpty).length === 0) {
 
 // Terniary operator
 // condition ? true : false
-const teaPrice = 10;
+const teaPrice = 50;
 teaPrice >= 20 ? console.log("affordable") : console.log("Expensive");
 
-// console.log(teaPrice);
+console.log(teaPrice);
+
+if (0) {
+  console.log("value is falsy");
+} else {
+  console.log("0");
+}

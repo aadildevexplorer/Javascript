@@ -1,4 +1,4 @@
-// 🔹 PRIMITIVE DATA TYPES => 
+// 🔹 PRIMITIVE DATA TYPES =>
 // Ye wo values hain jo immutable (change nahi hoti) hoti hain aur by value store hoti hain.
 
 // 1. String → Text data
@@ -15,7 +15,6 @@ let isLoggedIn = true;
 console.log(isLoggedIn); // true
 
 // 4. Undefined → Variable declared but no value assigned
-// ok
 let city;
 console.log(city); // undefined
 
@@ -103,14 +102,13 @@ let a = 10;
 let b = a;
 b = 20;
 console.log(a); // 10 (independent copy)
-
+console.log(b)
 let obj1 = { lang: "JS" };
 let obj2 = obj1;
 obj2.lang = "Node.js";
 console.log(obj1.lang); // "Node.js" (same reference)
 
-
 const x = Symbol();
 const y = Symbol();
 
-console.log(x , y)
+console.log(x, y);

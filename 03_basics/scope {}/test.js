@@ -18,8 +18,10 @@ console.log(global);
   var c = 20;
 }
 
-// var c = 300; overwrite ho gaye value
+var c = 300; // overwrite ho gaye value
 console.log(c);
+console.log(a); // a is not defined
+console.log(b); // b is not defined
 
 // 3. function scope
 function scope() {

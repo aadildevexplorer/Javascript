@@ -46,9 +46,3 @@ console.log(x, y, z);
 
 var b = "aadil";
 a = "khan";
-
-<<<<<<< HEAD
-console.log(a);
-=======
-console.log(a)
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5

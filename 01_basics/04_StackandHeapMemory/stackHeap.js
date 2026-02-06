@@ -1,6 +1,7 @@
 // stack memory => stack memory fixed size data ko store karti h like primitive data types string...etc ye immutable hote h
 let ab = 10;
 let ba = ab;
+
 ba = 90;
 console.log(ab); // 10
 console.log(ba); // 90
@@ -14,9 +15,9 @@ const obj1 = {
 const obj2 = obj1;
 obj2.name = "Aadil";
 
-console.log(obj1.name);
 console.log(obj2.name);
 
+console.log(obj1.name);
 let xx = 5;
 let yy = xx;
 yy = 10;
@@ -110,12 +111,12 @@ console.log(profile.city);
 // console.log(obj1.name);
 // console.log(obj2.name);
 
-// // let x = 5;
-// // let y = x;
-// // y = 10;
+// let x = 5;
+// let y = x;
+// y = 10;
 
-// // console.log(x); // 5
-// // console.log(y); // 10
+// console.log(x); // 5
+// console.log(y); // 10
 
 // let a = 10;
 // let b = a;
@@ -239,9 +240,25 @@ console.log(data);
 // console.log(JSON.stringify(data, null, 2));
 // const save = localStorage.setItem("data", data);
 
-localStorage.clear();
+// localStorage.clear();
 
 data[0].values = [...data[0].values, ...data[0].values, ...data[0].values];
 console.log(data);
 // console.log(JSON.stringify(data, null, 2));
 // const save = localStorage.setItem("data", data);
+
+let a1 = 100;
+let b1 = a1;
+
+b1 = 200;
+console.log(a1);
+console.log(b1);
+
+let obj = {
+  name: "linux",
+};
+
+let obj21 = obj;
+obj21.name = "kali linux";
+console.log(obj.name);
+console.log(obj21.name);

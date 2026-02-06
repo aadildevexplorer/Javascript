@@ -10,7 +10,7 @@ if (2 == "3") {
 console.log(2 !== 3); // true
 
 const temperature = 30;
-if (temperature == 40) {
+if (temperature === 40) {
   console.log("temperature is less than 30");
 } else {
   console.log("temperature is greater than 30");

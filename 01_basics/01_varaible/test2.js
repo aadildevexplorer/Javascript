@@ -21,15 +21,12 @@
 
 //3. Redecleration bhi hojata h jo ki risky hota h like
 
-<<<<<<< HEAD
 // var a = 2;
 // var a = 4;
 // console.log(a);
-=======
 var a = 2;
 var a = 4;
 console.log(a);
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
 
 // console.log(a)
 // console.log(b) // ReferenceError
@@ -37,17 +34,14 @@ console.log(a);
 
 // // Hoisted
 // var a = 34
-<<<<<<< HEAD
 // console.log(a) // undefined
 
-let a = 32;
-console.log(typeof a.toString());
+// let a = 32;
+// console.log(typeof a.toString());
 
 console.log(a);
 
 const arr = new Array();
-(arr[0] = "aadil"), (arr[1] = 90), (arr[2] = true);
+((arr[0] = "aadil"), (arr[1] = 90), (arr[2] = true));
 console.log(arr);
-=======
 // console.log(a) // undefined
->>>>>>> 1b48c1dcf051a21625ceb805663089a9be467ec5
