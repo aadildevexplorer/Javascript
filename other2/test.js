@@ -9,8 +9,8 @@ obj.email = "alpha02@gmail.com";
 obj.profession = "Dark web profession";
 
 Object.seal(obj);
-obj.isLoggedIn = true
-obj.name = 'daDa'
+obj.isLoggedIn = true;
+obj.name = "daDa";
 
 console.log(obj);
 
