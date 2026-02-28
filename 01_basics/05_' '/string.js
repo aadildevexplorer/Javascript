@@ -48,7 +48,7 @@ console.log(cnct);
 // 11. replace() →  Sirf first match ko replace karta h
 const rp = "i am a developer".replace(
   "i am a developer",
-  "i am a software developer"
+  "i am a software developer",
 );
 console.log(rp); // i am a software developer
 
