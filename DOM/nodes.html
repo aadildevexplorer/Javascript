@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      Hello
+      <p>World</p>
+    </div>
+
+    <script>
+      // Node = HTML document ka ek single part (element, text, comment, etc.)
+      // HTML ka har ek piece ek node hota hai.
+
+      // const div = document.querySelector("div");
+      // console.log(div.childNodes);
+      // console.log(div.children);
+
+      // const arr1 = ["ashish", "bhanu", "naveen", "gautam"];
+      // const arr2 = ["blue", "green", "yellow", "red"];
+      // arr1.forEach((text, index) => multipleButtons(text, arr2[index]));
+
+      // function multipleButtons(text, bgColor) {
+      //   const button = document.createElement("button");
+      //   console.log(button);
+      //   button.setAttribute("class", "firstbutton");
+      //   button.setAttribute("type", "submit");
+      //   button.style.backgroundColor = `${bgColor}`;
+      //   button.style.cursor = "pointer";
+      //   button.style.padding = "12px";
+      //   button.style.borderRadius = "10px";
+      //   const textnode = document.createTextNode(`${text}`);
+      //   button.appendChild(textnode);
+      //   document.body.appendChild(button);
+      // }
+
+      const arr1 = ["ashu", "duffer", "dummy"];
+      const arr2 = ["yellow", "red", "blue"];
+
+      arr1.forEach((text, index) => multiBtns(text, arr2[index]));
+      function multiBtns(text, bgColor) {
+        const btn = document.createElement("button");
+        btn.style.backgroundColor = `${bgColor}`;
+        btn.textContent = `${text}`;
+        btn.style.cursor = 'pointer'
+        document.body.appendChild(btn);
+        console.log(btn)
+      }
+    </script>
+  </body>
+</html>

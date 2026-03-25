@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM | chai aur code</title>
+  </head>
+  <body style="background-color: black; color: white">
+    <div class="parent">
+        <!-- this a comment -->
+      <p class="day">Monday</p>
+      <p class="day">Tuesday</p>
+      <p class="day">Wednasday</p>
+      <p class="day">Thursday</p>
+      <p class="day">Friday</p>
+      <p class="day">Saturday</p>
+    </div>
+
+    <script>
+      const parent = document.querySelector(".parent");
+      console.log(parent);
+        console.log(parent.children[0].innerHTML);
+
+      //   for (let i = 0; i < parent.children.length; i++) {
+      //     console.log(parent.children[i].innerHTML);
+      //   }
+
+      //   parent.children[0].style.color = "red";
+      //   console.log(parent.firstElementChild);
+
+      const day = document.querySelector(".day");
+      console.log(day);
+      console.log(day.parentElement);
+      console.log(day.nextElementSibling);
+
+      console.log("Nodes", parent.childNodes);
+    </script>
+  </body>
+</html>

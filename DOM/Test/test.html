@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="list">
+      <li class="item">Li 1</li>
+      <li class="item">Li 2</li>
+      <li class="item">Li 3</li>
+      <li class="item">Li 4</li>
+      <li class="item">Li 5</li>
+    </ul>
+
+    <script>
+      // style Element
+      const lis = document.querySelectorAll("li").forEach((i) => {
+        i.style.color = "red";
+        i.style.backgroundColor = "black";
+        i.style.listStyle = "none";
+        i.style.padding = "5px";
+      });
+
+      // Create Element
+      const Ele = document.createElement("li");
+      Ele.innerText = "Li 6";
+      Ele.style.color = "green";
+      Ele.style.backgroundColor = "white";
+      Ele.style.margin = "5px";
+      Ele.style.listStyle = "none";
+
+      document.querySelector("ul").append(Ele);
+
+      // Edit Element
+      const secondEle = document.querySelector("li:nth-child(2)");
+      const newLi = document.createElement("li");
+      newLi.textContent = "new li";
+      newLi.style.listStyle = "none";
+      secondEle.replaceWith(newLi);
+
+      // Remove Element
+      const removeEle = document.querySelector("li:nth-child(3)");
+      removeEle.remove();
+    </script>
+  </body>
+</html>

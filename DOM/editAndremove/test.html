@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="language">
+      <li>JavaScript</li>
+    </ul>
+
+    <script>
+
+      // Create
+      const li = document.createElement("li");
+      li.innerHTML = "TypeScript";
+      document.querySelector("ul").appendChild(li);
+
+      // second Element using function
+      function language(langName) {
+        const li = document.createElement("li");
+        li.innerHTML = `${langName}`;
+        document.querySelector("ul").appendChild(li);
+      }
+
+      language("C");
+      language("C++");
+      language("C#");
+
+      // Edit
+      
+      const secondLang = document.querySelector("li:nth-child(2)");
+      const newLi = document.createElement("li");
+      newLi.textContent = "Mojo";
+      secondLang.replaceWith(newLi);
+
+      // Edit with outer HTML
+      const firstLang = document.querySelector("li:first-child");
+      firstLang.outerHTML = `<li>GoLang</li>`;
+
+      // Remove
+      const removeEle = document.querySelector("li:nth-child(1)");
+      removeEle.remove();
+
+    </script>
+  </body>
+</html>

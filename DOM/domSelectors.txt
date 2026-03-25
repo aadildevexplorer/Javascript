@@ -1,0 +1,14 @@
+| Selector                            | Kya return karta hai |
+| ----------------------------------- | -------------------- |
+| `document.getElementById()`         | **Single Element**   |
+| `document.querySelector()`          | **Single Element**   |
+| `document.getElementsByClassName()` | **HTMLCollection**   |
+| `document.getElementsByTagName()`   | **HTMLCollection**   |
+| `document.querySelectorAll()`       | **NodeList**         |
+
+👉 document ek global object hai jo browser automatically deta hai
+👉 Ye poore HTML page ka representation hota hai (DOM tree)
+
+innerHTML - pura HTML Content deta hai ex "Hello <span style="display:none">Hidden</span> World"
+textContent - Hidden text bhi include ho gaya "Hello Hidden World"
+innerText - hidden text nhi ata h

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM | chai aur code</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+
+  <body style="background-color: black; color: white">
+    <h1 id="title" class="code">
+      chai aur code <span style="display: none">test text</span>
+    </h1>
+    <script>
+      // for (let i = 1; i <= 5; i++) {
+      const div = document.createElement("div");
+      div.innerText = "Hello";
+      div.className = "main";
+      div.id = Math.round(Math.random() * 10 + 1);
+      div.style.backgroundColor = "red";
+      div.style.margin = "5px";
+      div.setAttribute("data", "users");
+      document.querySelector("body").appendChild(div);
+      console.log(div);
+      // }
+
+      // for (let i = 0; i < 5; i++) {
+      //   document.querySelector("div").remove();
+      // }
+
+      // const ID = document.querySelector("#title");
+      // console.log(ID);
+
+      // because
+      // 👉 getElementById → direct id
+      // 👉 querySelector → CSS selector
+    </script>
+  </body>
+</html>

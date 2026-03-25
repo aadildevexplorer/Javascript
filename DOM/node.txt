@@ -1,0 +1,6 @@
+🔹 Node Types (important)
+Type	Meaning
+Element Node	HTML tags (div, p, etc.)
+Text Node	Text content
+Attribute Node	Attributes (class, id)
+Comment Node	<!-- comment -->
