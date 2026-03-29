@@ -153,7 +153,6 @@ console.log(b); // 20
 // console.log(obj3.name);
 // console.log(obj4.name);
 
-
 const obj3 = {
   name: "user",
 };
@@ -161,5 +160,5 @@ const obj3 = {
 const obj4 = obj3; // Yaha reference copy ho raha hai matlab pura object hi
 obj4.name = "user2";
 
-console.log(obj3.name);  // user2
-console.log(obj4.name);  // user2
+console.log(obj3.name); // user2
+console.log(obj4.name); // user2

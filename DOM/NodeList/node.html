@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+    </ul>
+
+    <script>
+        // 👉 NodeList ek collection hota hai jo DOM ke nodes ko store karta hai (elements + text + comments).
+      // ✅ NodeList (list of elements)
+      const list = document.querySelectorAll("li");
+
+      console.log(list); // NodeList
+      console.log(list[0]); // <li>One</li> → real element
+
+      list.forEach((item) => {
+        console.log(item.textContent);
+      });
+    </script>
+  </body>
+</html>

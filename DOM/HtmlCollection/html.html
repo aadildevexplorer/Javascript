@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+    </ul>
+    <script>
+        // 👉 HTMLCollection ek collection hota hai jo sirf HTML elements ko store karta hai (text/comment include nahi karta).
+      // ✅ collection of elements
+      const list = document.getElementsByTagName("li");
+
+      console.log(list); // HTMLCollection
+    //   console.log(list[0]); // <li>One</li> → real element
+
+    //   for (let i = 0; i < list.length; i++) {
+    //     console.log(list[i].textContent);
+    //   }
+    </script>
+  </body>
+</html>
