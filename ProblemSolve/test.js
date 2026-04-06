@@ -50,7 +50,7 @@ const findMaximumNumber = (arr) => {
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > max) {
-      max = arr[i]
+      max = arr[i];
     }
   }
 
@@ -76,3 +76,16 @@ console.log(result);
 
 // const result = findMaximumNumber([1, 2, 39, 4, 5, 6, 7, 8, 9, 10]);
 // console.log(result);
+
+const findMaximum = (arr) => {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max
+};
+
+const result2 = findMaximum([1, 2, 3, 4, 50]);
+console.log(result2);

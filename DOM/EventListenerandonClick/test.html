@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button>Click me</button>
+
+    <script>
+      // onClick => // Ek property hai
+      // Ek time par sirf ek function assign ho sakta hai
+      const button = document.querySelector("button");
+      // button.onclick = function () {
+      // console.log("Clicked me");
+      // };
+      // button.onclick = function () {
+      // console.log("Clicker me");
+      // };
+
+      // if (console.log.length === 3) {
+      // alert("Now I am temporary blocked");
+      // }
+
+      // addEventListener
+      // Ek method hai
+      // Ek event par multiple handlers laga sakte ho
+
+      button.addEventListener("click", function () {
+        console.log("Clicked 1");
+      });
+
+      button.addEventListener("click", function () {
+        console.log("Clicked 2");
+      });
+    </script>
+  </body>
+</html>

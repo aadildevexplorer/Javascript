@@ -24,7 +24,4 @@ form.addEventListener("submit", function (e) {
   }
 });
 
-const time = new Date();
-console.log(time.toLocaleTimeString());
-
 // BMI Formula // const bmi2 = (weight / ((height * height) / 10000)).toFixed(2)
