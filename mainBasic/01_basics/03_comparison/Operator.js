@@ -212,3 +212,14 @@ console.log(msg);
 // !== st not eq
 
 console.log(5 != 5);
+console.log(0 != 0);
+
+console.log(0 >= 1);
+
+// 👉 == / != → convert karta hai
+// 👉 === / !== → bilkul convert nahi karta
+
+console.log(5 != '5')
+console.log(5 != 5)  // false isiliye kiyuki js str ko number me convert kta h
+
+console.log(5 !== '5') // true

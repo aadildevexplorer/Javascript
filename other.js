@@ -18,6 +18,56 @@
 
 // getDataFromApi();
 
-(() => {
-  console.log("Hello world");
-})();
+// (() => {
+//   console.log("Hello world");
+// })();
+
+// const obj = {
+//   name: "aadil",
+//   welcomeUser: function () {
+//     console.log(this.name);
+//   },
+// };
+
+// obj.welcomeUser();
+
+// for (let i = 0; i <= 20; i++) {
+//   console.log(i);
+// }
+
+// const date = new Date();
+// console.log(date);
+// console.log(date.toString());
+// console.log(date.toLocaleString());
+// console.log(date.toLocaleDateString());
+// console.log(date.toLocaleTimeString());
+
+// console.log(Date.now());
+
+// const arr1 = ["asha", "salma", "rani"];
+// const arr2 = ["yellow", "red", "black"];
+// arr1.forEach((text, index) => multiBtn(text, arr2[index]));
+// function multiBtn(text, bgColor) {
+//   const button = document.createElement("button");
+//   button.style.backgroundColor = `${bgColor}`;
+//   button.style.color = "white";
+//   button.style.border = "none";
+//   button.style.padding = "10px";
+//   button.style.margin = "3px";
+//   button.textContent = `${text}`;
+//   button.style.cursor = "pointer";
+//   style.innerHTML = `
+//   .dynamic-btn {
+//     background: blue;
+//     color: white;
+//   }
+//   .dynamic-btn:hover {
+//     background: red;
+//   }
+// `;
+//   document.body.appendChild(button);
+//   console.log(button);
+// }
+
+const arr = '1ep'
+console.log(arr.includes(0))

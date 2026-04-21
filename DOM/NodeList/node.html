@@ -6,22 +6,30 @@
     <title>Document</title>
   </head>
   <body>
-    <ul>
+    <!-- <ul>
       <li>One</li>
       <li>Two</li>
-    </ul>
+    </ul> -->
+
+    <p class="hel">Hello <span style="display: none">World</span></p>
 
     <script>
+      const color = document.querySelector(".hel");
+      color.style.color = "red";
+      console.log(color.innerHTML); // pura html content deta h
+      console.log(color.textContent); // hidden text bhi deta h
+      console.log(color.innerText); // hidden text nhi deta h
+
       // 👉 NodeList ek collection hota hai jo DOM ke nodes ko store karta hai (elements + text + comments).
       // ✅ NodeList (list of elements)
-      const list = document.querySelectorAll("li");
+      // const list = document.querySelectorAll("li");
 
-      console.log(list); // NodeList
-      console.log(list[0]); // <li>One</li> → real element
+      // console.log(list); // NodeList
+      // console.log(list[0]); // <li>One</li> → real element
 
-      list.forEach((item) => {
-        console.log(item.textContent);
-      });
+      // list.forEach((item) => {
+      //   console.log(item.textContent);
+      // });
     </script>
   </body>
 </html>

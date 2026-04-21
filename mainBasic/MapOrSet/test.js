@@ -1,14 +1,14 @@
-// // Map ek Advanced object h jo data store krta h key value pairs me
+// Map ek Advanced object h jo data store krta h key value pairs me
 
-// // Map or Set javascript ke built in data structure h jo data ko store krte h
-// // Map key value me store krta h
-// // Set Collection of unique value
+// Map or Set javascript ke built in data structure h jo data ko store krte h
+// Map key value me store krta h
+// Set Collection of unique value
 
-// // 🔹 Map ki khas baat
-// // Object me key sirf string ya symbol hoti hai
-// // Map me key kuch bhi ho sakti hai (number, object, function, etc.)
+// 🔹 Map ki khas baat
+// Object me key sirf string ya symbol hoti hai
+// Map me key kuch bhi ho sakti hai (number, object, function, etc.)
 
-// // Map
+// Map
 // const usersData = new Map();
 
 // usersData.set("name", "John Doe");
@@ -22,7 +22,7 @@
 
 // usersData.set(objData, "Object as a Key");
 
-// // for password generate
+// for password generate
 // function passGen(num) {
 //   let otp = "";
 //   for (let i = 0; i < num; i++) {
@@ -48,15 +48,15 @@
 // console.log(...new Set(uniqueArr));
 // console.log(new Set(uniqueArr));
 
-// // 1.
+// 1.
 // const fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
 // console.log(...new Set(fruits));
 
-// // 2.
+// 2.
 // const numbers = [1, 2, 2, 3, 4, 4, 5];
 // console.log(...new Set(numbers));
 
-// // 3.
+// 3.
 // const setA = new Set([1, 2, 3, 4]);
 // const setB = new Set([3, 4, 5, 6]);
 

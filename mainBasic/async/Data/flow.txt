@@ -1,0 +1,7 @@
+🔥 Flow (important for interview):
+fetch() → server se data laata hai
+res.json() → JSON ko JS object me convert karta hai
+map() → har user pe loop
+createElement() → DOM element banaya
+innerHTML → data inject kiya
+appendChild() → UI me show kar diya

@@ -7,20 +7,21 @@
 // "Async/await internally Promises ke through asynchronous operations ko handle karta hai."
 
 // Synchronous progeamming jisme code line by line execute hota h
-console.log("start");
+// console.log("start");
 
-function test() {
-  for (let i = 1; i < 2; i++) {
-    console.log(i);
-  }
-  console.log("done");
-}
+// function test() {
+//   for (let i = 1; i < 2; i++) {
+//     console.log(i);
+//   }
+//   console.log("done");
+// }
 
-test();
-console.log("end");
+// test();
+// console.log("end");
 
 // asynchronous programming jisme code background me run hota h or next line immediate run hoti h without wait
 console.log("start");
+
 function test() {
   setTimeout(() => {
     for (let i = 1; i < 2; i++) {
@@ -32,3 +33,6 @@ function test() {
 
 test();
 console.log("end");
+
+// console.log(2 !== 3);
+

@@ -1,6 +1,6 @@
-const btn = document?.getElementById("btn");
+const btn = document.getElementById("btn");
 
-btn?.addEventListener("click", function () {
+btn.addEventListener("click", function () {
   document.getElementById("title").textContent = "Content Changed!";
 });
 
