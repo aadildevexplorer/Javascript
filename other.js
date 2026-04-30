@@ -69,5 +69,23 @@
 //   console.log(button);
 // }
 
-const arr = '1ep'
-console.log(arr.includes(0))
+// const arr = '1ep'
+// console.log(arr.includes(0))
+
+const User = new Object()
+
+User.name = 'aadil'
+User.age = 30
+
+
+// console.log(Object.keys(User)) // keys
+// console.log(Object.values(User)) // values
+// Object.seal(User) // 
+// Object.freeze(User) // block
+Object.assign
+// User.name = 'User' // not change
+// console.log(User)
+
+// Object.seal(User)
+// User.name = 'User' // changed because we can change existing value 
+// console.log(User)

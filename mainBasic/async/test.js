@@ -33,6 +33,3 @@ function test() {
 
 test();
 console.log("end");
-
-// console.log(2 !== 3);
-
