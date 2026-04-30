@@ -63,3 +63,12 @@ for (let i = 0; i <= 50; i++) {
 
   console.log(i);
 }
+  const [count , setCount] = useState(0)
+  function increaseCount(){
+    setCount(count + 1)
+  }
+
+   function decreaseCount(){
+    setCount(count - 1)
+  }
+  
