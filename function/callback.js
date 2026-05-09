@@ -3,7 +3,7 @@
 
 // sayBye ek callback function hai
 // greet function usko baad me call kar raha hai
-2
+
 function greet(name, callback) {
   console.log("Hello" + name);
   callback();
@@ -35,3 +35,8 @@ const arr2 = [4, 5];
 
 const finalArr = [...arr1, ...arr2];
 console.log(finalArr);
+
+
+console.log(0 !== 2) // true
+console.log(0 === 2) // false
+console.log(0 != 2) // true

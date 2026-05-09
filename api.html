@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Geolocation API</title>
+  </head>
+  <body>
+    <button onclick="getLocation()">Get Location</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            function (position) {
+              const lat = position.coords.latitude;
+              const lng = position.coords.longitude;
+
+              console.log("latitude", lat);
+              console.log("longitude", lng);
+
+              document.getElementById("result").innerHTML =
+                `Latitude: ${lat} <br> Longitude: ${lng}`;
+            },
+
+            function (error) {
+              document.getElementById("result").innerHTML =
+                "Location access denied";
+            },
+          );
+        } else {
+          alert("Geolocation not supported");
+        }
+      }
+    </script>
+  </body>
+</html>

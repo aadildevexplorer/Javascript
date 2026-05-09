@@ -89,3 +89,24 @@ Object.assign
 // Object.seal(User)
 // User.name = 'User' // changed because we can change existing value 
 // console.log(User)
+
+function findMaximumNumber(arr){
+		
+   let max = arr[0] 
+   for(let i = 0; i < arr.length; i++){
+	
+	if(arr[i] > max){
+	max = arr[i]	
+
+}	
+
+}
+
+return max
+			
+}
+
+console.log(findMaximumNumber([1,2,3,4,56]))
+
+console.log(a)
+const a = 3
