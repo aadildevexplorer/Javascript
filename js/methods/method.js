@@ -7,3 +7,7 @@ const mySet = new Set([1,2,3,4,5,6,7,8,9,10])
 console.log(mySet.has(30)) // false
 console.log(mySet.has(10)) // true
 
+// Array , Map , Set , Object ,String , Number , Boolean “Ye JavaScript ke built-in global objects 
+// constructors hain jo different types ka data handle karne ke liye use hote hain.”
+
+// Map => JavaScript ka built-in data structure hai jo key-value pairs store karta hai.

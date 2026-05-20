@@ -1,7 +1,7 @@
 // console.log(0.1 + 0.2 === 0.3);
 // console.log(NaN === NaN);
 // console.log("" + "");
-// console.log([] + []);
+console.log([] == []);
 
 // console.log(3 / "a");
 // async function getDataFromApi() {
@@ -72,41 +72,35 @@
 // const arr = '1ep'
 // console.log(arr.includes(0))
 
-const User = new Object()
+const User = new Object();
 
-User.name = 'aadil'
-User.age = 30
-
+User.name = "aadil";
+User.age = 30;
 
 // console.log(Object.keys(User)) // keys
 // console.log(Object.values(User)) // values
-// Object.seal(User) // 
+// Object.seal(User) //
 // Object.freeze(User) // block
-Object.assign
+Object.assign;
 // User.name = 'User' // not change
 // console.log(User)
 
 // Object.seal(User)
-// User.name = 'User' // changed because we can change existing value 
+// User.name = 'User' // changed because we can change existing value
 // console.log(User)
 
-function findMaximumNumber(arr){
-		
-   let max = arr[0] 
-   for(let i = 0; i < arr.length; i++){
-	
-	if(arr[i] > max){
-	max = arr[i]	
+function findMaximumNumber(arr) {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
 
-}	
-
+  return max;
 }
 
-return max
-			
-}
+console.log(findMaximumNumber([1, 2, 3, 4, 56]));
 
-console.log(findMaximumNumber([1,2,3,4,56]))
-
-console.log(a)
-const a = 3
+console.log(a);
+const a = 3;
