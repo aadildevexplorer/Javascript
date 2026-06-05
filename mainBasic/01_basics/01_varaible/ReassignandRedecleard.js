@@ -14,16 +14,31 @@
 // b = 90;
 // console.log(b); //  Assignment to constant variable.
 
-const obj = {
-  name: "user",
-};
+// const obj = {
+//   name: "user",
+// };
 
-const obj1 = {
-  name: "user",
-};
+// const obj1 = {
+//   name: "user",
+// };
 
-const func = function name() {
-  console.log("hello");
-};
+// name();
+//  function name() {
+//   console.log("hello");
+// };
 
-func();
+// console.log(a)
+// const a = 90
+// a = 70
+// console.log(a)
+
+// const obj = []
+// console.log(obj)
+// console.log([2] !== [2])
+// console.log([2] != [20])
+// console.log({a : '4'} == {a : '4'})
+// console.log({a : '4'} === {a : '4'})
+// console.log(!(false))
+
+// console.log(5 === 6)
+console.log([5] !== [6])
