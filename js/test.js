@@ -54,6 +54,10 @@
 // const sortedNum = num.sort((a, b) => a - b);
 // console.log(sortedNum);
 
+alert('Hello world')
+prompt('Enter your name')
+confirm('Are you sure')
+
 // loop is control structure used to execute block of code that repeatedly a given condition
 
 for (let i = 0; i <= 50; i++) {
