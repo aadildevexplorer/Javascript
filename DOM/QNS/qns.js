@@ -33,6 +33,8 @@ console.log(document.querySelector(".card").classList);
 document.getElementById("img").src = "image2.jpg";
 console.log(document.getElementById("img").src);
 
+document.querySelector('.card').innerHTML = 'Hello World';
+console.log(document.querySelector('.card').innerHTML);
 // <ul> ke andar JavaScript se ek new <li> add karo jiska text "Item 4" ho.
 const li = document.createElement("li");
 li.innerText = "Item 4";
