@@ -1,3 +1,14 @@
+// without debounce
+// const input = document.getElementById("search");
+
+// input.addEventListener('input' , (e) => {
+
+//       console.log('API Call' , e.target.value)
+
+// })
+
+
+// with debonce
 function debounce(fn, delay) {
   let timer;
 
