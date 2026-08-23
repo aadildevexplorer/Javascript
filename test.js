@@ -2,12 +2,12 @@
 // console.log(str.indexOf('d'))
 // console.log('hello world'.length)
 
-const a = 90;
-function b() {
-  console.log(a);
-}
+// const a = 90;
+// function b() {
+//   console.log(a);
+// }
 
-b();
+// b();
 
 // const arr = [1,2,3,4,5]
 
@@ -26,15 +26,19 @@ b();
 // const result = removeElement([1,2,3,4,5])
 // console.log(result)
 
-function removeElement(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 3) {
-      arr.splice(i, 1);
-    }
-  }
+// function removeElement(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 3) {
+//       arr.splice(i, 1);
+//     }
+//   }
 
-  return arr;
-}
+//   return arr;
+// }
 
-const result = removeElement([1, 2, 3, 4, 5]);
-console.log(result);
+// const result = removeElement([1, 2, 3, 4, 5]);
+// console.log(result);
+
+const ages = [10 , 19 , 5 , 7] 
+console.log(ages.some((age => age < 20)))
+console.log(ages.every((age => age < 20)))
