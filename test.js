@@ -39,6 +39,39 @@
 // const result = removeElement([1, 2, 3, 4, 5]);
 // console.log(result);
 
-const ages = [10 , 19 , 5 , 7] 
-console.log(ages.some((age => age < 20)))
-console.log(ages.every((age => age < 20)))
+// const ages = [10 , 19 , 5 , 7] 
+// console.log(ages.some((age => age < 20)))
+// console.log(ages.every((age => age < 20)))
+
+// let a = 90
+
+// function ok(){
+//     console.log(a)
+// }
+
+// // ok()
+
+// const getUsers = function(){
+
+// console.log(a)
+
+// }
+
+// getUsers()
+
+// const arrow = () => {
+
+//        console.log(a)
+
+// }
+
+// arrow()
+
+let a = 90
+let b = a
+
+// console.log(a)
+// console.log(b)
+
+
+console.log([2] == [2])

@@ -37,8 +37,8 @@ const obj2 = obj1;
 obj2.name = "Aadil";
 
 console.log(obj2.name);
-
 console.log(obj1.name);
+
 let xx = 5;
 let yy = xx;
 yy = 10;
