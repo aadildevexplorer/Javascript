@@ -53,6 +53,6 @@ console.log({} === {}); // true
 
 // console.log(["5"] == 5); // true
 // console.log(["5"] === 5); // false
-
+console.log('Hey Developers')
 console.log(Boolean([]));
 console.log([] == true); // false
