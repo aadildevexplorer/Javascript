@@ -65,6 +65,11 @@ for (let i = 0; i <= 50; i++) {
     continue;
   }
 
+for (let i = 0; i <= 50; i++) {
+  if (i === 40) {
+    continue;
+  }
+  
   console.log(i);
 }
   const [count , setCount] = useState(0)
