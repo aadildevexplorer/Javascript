@@ -29,12 +29,13 @@
 // console.log('bhai')
 
 
-console.log('start 1')
+// console.log('start 1')
 
-setTimeout(() => {
+// setTimeout(() => {
 
-      console.log('this is delay function')
+//       console.log('this is delay function')
 
-},5000)
+// },5000)
 
-console.log('Start 2')
+// console.log('Start 2')
+
