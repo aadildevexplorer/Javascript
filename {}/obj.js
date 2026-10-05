@@ -17,7 +17,12 @@
 
 // console.log(...obj1 , ...obj2)
 
-const arr1 = [1,2]
-const arr2 = [3,4]
-const finalArr = [...arr1 , ...arr2]
-console.log(finalArr)
+// const arr1 = [1,2]
+// const arr2 = [3,4]
+// const finalArr = [...arr1 , ...arr2]
+// console.log(finalArr)
+
+const a = {}
+a.name = 'rahul'
+
+console.log(a)
