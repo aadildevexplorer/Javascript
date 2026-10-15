@@ -37,42 +37,75 @@
 
 // console.log(role)
 
+// const users = [
+//   {
+//     id: 1,
+//     name: "Aadil",
+//     age: 23,
+//     email: "aadil@example.com",
+//     role: "Developer"
+//   },
+//   {
+//     id: 2,
+//     name: "Rahul",
+//     age: 25,
+//     email: "rahul@example.com",
+//     role: "Designer"
+//   },
+//   {
+//     id: 3,
+//     name: "Arman",
+//     age: 22,
+//     email: "arman@example.com",
+//     role: "Developer"
+//   },
+//   {
+//     id: 4,
+//     name: "Sahil",
+//     age: 27,
+//     email: "sahil@example.com",
+//     role: "Manager"
+//   },
+//   {
+//     id: 5,
+//     name: "Zaid",
+//     age: 24,
+//     email: "zaid@example.com",
+//     role: "Tester"
+//   }
+// ];
+
+// console.log(users[4].role)
+
+// function maxNum(arr){
+
+//       let max = arr[4]
+//       for (let i = 4; i <= 8; i++) {
+
+//         if(arr[i] > max){
+//           max = arr[i]
+//         }
+
+//       }
+
+//       return max
+
+// }
+
+// console.log(maxNum([1,2,3,4,5,6,7,8,9,10]))
+
+// Object.groupBy() JavaScript ka ek method hai jo array ke elements ko kisi common property 
+// ya condition ke basis par groups mein divide karta hai.
+
 const users = [
-  {
-    id: 1,
-    name: "Aadil",
-    age: 23,
-    email: "aadil@example.com",
-    role: "Developer"
-  },
-  {
-    id: 2,
-    name: "Rahul",
-    age: 25,
-    email: "rahul@example.com",
-    role: "Designer"
-  },
-  {
-    id: 3,
-    name: "Arman",
-    age: 22,
-    email: "arman@example.com",
-    role: "Developer"
-  },
-  {
-    id: 4,
-    name: "Sahil",
-    age: 27,
-    email: "sahil@example.com",
-    role: "Manager"
-  },
-  {
-    id: 5,
-    name: "Zaid",
-    age: 24,
-    email: "zaid@example.com",
-    role: "Tester"
-  }
+  { name: 'Ana', role: 'admin' },
+  { name: 'Bob', role: 'dev' },
+  { name: 'Cal', role: 'admin' }
 ];
 
-console.log(users[4].role)
+const grouped = Object.groupBy(
+  users,
+  user => user.role
+);
+
+console.log(grouped);
