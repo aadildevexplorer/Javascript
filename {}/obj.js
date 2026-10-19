@@ -4,6 +4,7 @@
 // }
 
 // // const copy = {...obj}
+// const copy = {...obj}
 // const copy = obj
 // console.log(copy)
 

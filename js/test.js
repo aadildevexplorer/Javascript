@@ -64,6 +64,12 @@ for (let i = 0; i <= 50; i++) {
   if (i === 40) {
     continue;
   }
+  }
+// for (let i = 0; i <= 50; i++) {
+//   if (i === 40) {
+//     continue;
+//   }
+//   }
 
 for (let i = 0; i <= 50; i++) {
   if (i === 40) {
@@ -77,7 +83,8 @@ for (let i = 0; i <= 50; i++) {
     setCount(count + 1)
   }
 
-  fuction findMax(arr){
+  function findMax(arr){
+  function findMax(arr){
 
      let max = arr[0]
      for(let i = 0; i < arr.length; i++){
@@ -87,10 +94,9 @@ for (let i = 0; i <= 50; i++) {
      }
     return max
   }
-
+  }
   console.log([1,2,3,4,5])
 
    function decreaseCount(){
     setCount(count - 1)
   }
-  
